@@ -1,5 +1,8 @@
 package com.wch.Project;
 
+/**
+ * Class printe the object
+ */
 public class Printer {
 	MyObject object;
 	
@@ -7,6 +10,9 @@ public class Printer {
 		this.object = object;
 	}
 	
+	/**
+	 * the method outputs my object to the terminal
+	 */
 	public void printObj(){
 		System.out.println("Входные данные:");
 		System.out.println(object.getMycollect());

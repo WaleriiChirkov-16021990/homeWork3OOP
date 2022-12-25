@@ -4,6 +4,11 @@ import com.wch.Interface.ElementRepeatable;
 
 import java.util.*;
 
+/**
+ * Collections that, after receiving iterable data in the ArrayList,
+ * immediately count the frequency dictionary of elements.
+ * @param <U>
+ */
 public abstract class Mycollect<U> extends ArrayList<U> implements ElementRepeatable<U> {
 	private ArrayList<U> mycollect;
 	private HashMap<U,Integer> frequencyDictionary;

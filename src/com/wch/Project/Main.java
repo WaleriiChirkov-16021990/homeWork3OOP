@@ -24,6 +24,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
+	/**
+	 * main Mind
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		MyObject myObject = new MyObject(new ArrayList<>(Arrays.asList("1","2","3","4","3","2","2")));
 		new Printer(myObject).printObj();
